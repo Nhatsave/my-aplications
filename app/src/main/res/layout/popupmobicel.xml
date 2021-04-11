@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="240dp"
+    android:layout_height="110dp"
+    android:background="@color/cardview_dark_background"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    >
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:id="@+id/txtClose2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textStyle="bold" >
+    </androidx.appcompat.widget.AppCompatAutoCompleteTextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem suporte:"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        style="italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envia o IMEI para obter o código"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+258 844 846 166"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+
+</LinearLayout>

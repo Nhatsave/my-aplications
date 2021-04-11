@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutContentMain2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#616268"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maguandza Calculator"
+        android:textAlignment="center"
+        android:textColor="#10DCBD"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:textSize="30sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/campoImei"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#858887"
+            android:fadingEdgeLength="15dp"
+            android:hint="Imei"
+            android:inputType="number"
+            android:maxLength="15"
+            android:selectAllOnFocus="true"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:text="0/15"
+        android:textAlignment="textEnd" />
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00D4B4"
+        android:onClick="calcular"
+        android:text="Calcular"
+        android:textColorHighlight="#FF9800"
+        android:textSize="24sp"
+        app:backgroundTint="#C4FF1FCE"
+        tools:textColorLink="#FFEB3B" />
+
+    <TextView
+        android:id="@+id/viewCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#858887"
+        android:clickable="false"
+        android:hint="Codigo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="info"
+        android:text="    Info"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#2A0730" />
+
+    <Button
+        android:id="@+id/mobicel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mobicel"
+        android:text="Mobicel"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#2A0730"
+        tools:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/movitel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="movitel"
+        android:text="Movitel"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#2A0730" />
+
+    <Button
+        android:id="@+id/kicka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="kicka"
+        android:text="Kicka"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:backgroundTint="#2A0730" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Junte-se" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#616268">
+
+        <Button
+            android:id="@+id/facebook"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:autoLink="all"
+            android:background="@drawable/buttonstyle"
+            android:onClick="facebook"
+            android:text="Facebook"
+            android:textSize="8sp"
+            android:textStyle="italic"
+            app:backgroundTint="#8500E6DE" />
+
+        <Button
+            android:id="@+id/telegram"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:autoLink="all|web"
+            android:autoText="false"
+            android:background="@drawable/buttonstyle"
+            android:onClick="telegram"
+            android:text="Telegram"
+            android:textSize="8sp"
+            android:textStyle="italic"
+            android:translationX="235dp"
+            app:backgroundTint="#8500E6DE"
+            app:cornerRadius="4dp"
+            app:iconSize="8dp"
+            app:iconTint="#FFFFFF"
+            tools:iconSize="20dp" />
+
+        <Button
+            android:id="@+id/whatsapp"
+            android:layout_width="85dp"
+            android:layout_height="30dp"
+            android:autoLink="all|web"
+            android:background="@drawable/buttonstyle"
+            android:onClick="whatsapp"
+            android:text="whatsApp"
+            android:textSize="8sp"
+            android:textStyle="italic"
+            android:translationX="150dp"
+            app:backgroundTint="#8500E6DE"
+            tools:iconSize="5dp" />
+
+        <Button
+            android:id="@+id/youtube"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:autoLink="all|web"
+            android:background="@drawable/buttonstyle"
+            android:onClick="youtube"
+            android:text="Youtube"
+            android:textSize="8sp"
+            android:textStyle="italic"
+            android:translationX="80dp"
+            app:backgroundTint="#8500E6DE" />
+
+        <TextView
+            android:id="@+id/develop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoText="true"
+            android:ellipsize="middle"
+            android:text="Desenvolvido por: Nhatsave"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:translationY="50dp"
+            android:verticalScrollbarPosition="right" />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>

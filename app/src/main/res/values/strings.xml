@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Maguandza</string>
+    <string name="message_conexao_criada_sucesso">Conexao criada com Sucesso!</string>
+    <string name="erro">Erro</string>
+</resources>
